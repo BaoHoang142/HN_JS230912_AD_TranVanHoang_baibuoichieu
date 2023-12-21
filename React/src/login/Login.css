@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#login {
+    width: 100vw;
+    height: 740px;
+    background-color: aqua;
+    padding-top: 50px;
+    background-image: url("../imgs/christmas-1869902_1280.jpg");
+    object-fit: cover;
+    /* background-position: center; */
+    background-size: cover;
+    background-size: 1560px;
+    background-repeat: no-repeat;
+    
+   
+    
+}
+.login__form{
+    width: 600px;
+    height: 400px ;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #DCEDC2      ;
+    box-shadow: -3px 5px 10px 0px rgba(0,0,0,0.75);
+    float: right;
+    margin-right: 150px;
+    margin-top: 90px;
+    background-image: url("../imgs/moon-31665_1280.png");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    /* background-position: 300px 100px; */
+
+}
+.login__form--text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login__wish {
+    /* float: right; */
+    margin-top: 550px;
+    text-align: center;
+}
+.login__wish--text {
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    margin-right: 50px;
+}

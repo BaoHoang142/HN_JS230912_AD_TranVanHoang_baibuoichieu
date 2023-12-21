@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    background-color: rgb(91,186,216);
+    width: 100vw;
+    height: 750px;
+    position: relative;
+    background-image: url("../imgs/christmas-1911637_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    #formTable {
+        width: 500px ;
+        height:600px;
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 470px;
+        margin-right: 470px;
+        margin-bottom: 30px;
+        position: absolute;
+        box-shadow: -1px -2px 13px 0px rgba(0,0,0,0.75);
+        .mainTable{
+            float: right;
+            width: 450px;
+            height: 550px;
+            margin: 30px 25px ;
+            h1 {
+                font-weight: 800;
+            }
+            // text-align: center;
+            .formAdd{
+                margin-top: 20px;
+            }
+            .formRender{
+                width: 450px;
+                float: right;
+                ul {
+                    text-decoration: none;
+                    list-style: none;
+                    width: 400px;
+                    .formRender__list {
+                        margin-top: 20px;
+                        width: 450px;
+                        height: 50px;
+                        margin-left: -30px;
+                        background-color:#fff;
+                        display: flex;
+                        justify-content: space-between;
+                        border-radius: 5px;
+
+                        .formRender__list--text{
+                            padding: 10px;
+                            color: #000;
+                            font-size: 20px;
+                            font-weight: 800;
+                        }
+                        .formRender__list--button {
+                            display: flex;
+                            gap: 10px
+                        }
+                        
+                    }
+                }
+            }
+            .formFooter{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 450px;
+                height: 50px;
+                margin-top: 380px;
+                // background-color: rgb(242,242,242);
+                // opacity: 0.9;
+
+                p {
+                   padding: 10px;
+                   padding-top: 23px !important;
+
+                }
+            }
+        }
+        
+    }
+    
+  
+}
